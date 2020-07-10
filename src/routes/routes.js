@@ -18,7 +18,7 @@ import {
 import { getUrlClickMetrics } from "../controllers/metricsController";
 
 export const initRoutes = (app) => {
-  app.get("/", (req, res) => res.redirect("https://codeforcause.org/home"));
+  app.get("/", (req, res) => res.redirect("/register"));
   app.get("/register", renderLandingPage);
   app.get("/about", (req, res) => res.status(200).render("about"));
   app.get("/docs", (req, res) =>

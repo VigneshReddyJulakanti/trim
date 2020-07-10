@@ -9,4 +9,8 @@ npm-debug.log
 .jshintrc
 .log/
 
+<<<<<<< Updated upstream
 .DS_Store
+=======
+docker/data/
+>>>>>>> Stashed changes
